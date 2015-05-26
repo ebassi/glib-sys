@@ -60,6 +60,3 @@ pub type gfloat         = libc::c_float;
 pub type gdouble        = libc::c_double;
 pub type gpointer       = *mut   libc::c_void;
 pub type gconstpointer  = *const libc::c_void;
-
-pub const FALSE: gboolean = 0;
-pub const TRUE : gboolean = 1;
